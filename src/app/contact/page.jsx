@@ -4,7 +4,7 @@ import { useState } from "react"
 
 const text = "Let's Connect!!"
 
-const page = () => {
+const Page = () => {
   const [success,setSuccess] = useState(true);
   const [error, setError] = useState(false);
   return (
@@ -48,4 +48,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

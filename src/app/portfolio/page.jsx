@@ -31,7 +31,7 @@ const items = [
   },
 ]
 
-const page = () => {
+const Page = () => {
 
   const ref = useRef();
 
@@ -94,4 +94,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

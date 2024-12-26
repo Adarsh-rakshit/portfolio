@@ -3,7 +3,7 @@ import { motion, useInView, useScroll } from "framer-motion";
 import Brain from "@/components/brain";
 import { useRef } from "react";
 
-const page = () => {
+const Page = () => {
 
   const skillList = ["JavaScript", "MongoDb", "React","C++","Java","python","NodeJs","NextJs","Angular","low level Desgin","High level Design","ExpressJs","Data Structures and Algorithm"];
 
@@ -119,4 +119,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
