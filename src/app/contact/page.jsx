@@ -1,12 +1,9 @@
 "use client"
 import { motion } from "framer-motion"
-import { useState } from "react"
 
 const text = "Let's Connect!!"
 
 const Page = () => {
-  const [success,setSuccess] = useState(true);
-  const [error, setError] = useState(false);
   return (
     <motion.div
       className="h-full"

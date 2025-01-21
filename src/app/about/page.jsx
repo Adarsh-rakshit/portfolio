@@ -93,6 +93,7 @@ const Page = () => {
             <div
             className="flex gap-2 flex-wrap">
               {skillList.map((item)=>(
+
                 <motion.div 
                 initial={{x:"-1000px"}} 
                 animate={isSkillRefInView ? {x:0}:{}}
